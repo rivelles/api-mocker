@@ -1,0 +1,8 @@
+routes:
+  - name: 'hello-world'
+    methods:
+      - 'GET'
+    path: '/hello-world'
+    response:
+      code: 200
+      content: 'Hello World!'

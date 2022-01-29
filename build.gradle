@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+    id 'org.jetbrains.kotlin.plugin.serialization' version '1.5.10'
+}
+
+group 'org.rivelles'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation group: 'io.netty', name: 'netty-all', version: '4.1.73.Final'
+    implementation group: 'com.charleskorn.kaml', name: 'kaml', version: '0.40.0'
+}
